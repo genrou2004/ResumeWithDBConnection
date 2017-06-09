@@ -1,0 +1,39 @@
+Create database Employee;
+
+use Employee;
+
+ create table Resume (
+    ResumeID int not null auto_increment,
+	Firstname varchar(50),
+	Lastname varchar(50),
+    EmailAddress varchar(100),
+	primary key (ResumeID)
+	);
+    
+    
+create table Education (
+    EducationID int not null auto_increment,
+	SchoolName varchar(50),
+	LavelOfEducation varchar(50),
+	primary key (EducationID)
+	);
+    
+create table Experiance (
+    ExperianceID int not null auto_increment,
+	yearOfExperiance varchar(50),
+	LavelOfExperty varchar(50),
+	primary key (ExperianceID)
+	);
+    
+create table SkillSet (
+    SkillSetID int not null auto_increment,
+	SkillSetName varchar(50),
+	LavelOfSkillSet varchar(50),
+	primary key (SkillSetID)
+	);
+    
+    
+    
+
+    
+ 
